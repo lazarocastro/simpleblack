@@ -56,9 +56,9 @@ let s:none = {'gui': 'NONE', 'cterm256': 'NONE'}
 "    <sid>hi(GROUP, FOREGROUND, BACKGROUND, ATTRIBUTE)
 
 " Editor
-call <sid>hi('ColorColumn', s:none, s:simpleBlack2, 'none')
+call <sid>hi('ColorColumn', s:none, s:simpleGray, 'none')
 call <sid>hi('Cursor', s:simpleBlack, s:simpleSteel, 'none')
-call <sid>hi('CursorColumn', s:none, s:simpleBlack2, 'none')
+call <sid>hi('CursorColumn', s:none, s:simpleGray, 'none')
 call <sid>hi('CursorLine', s:none, s:simpleGray, 'none')
 call <sid>hi('CursorLineNr', s:simpleSteel, s:simpleGray, 'none')
 call <sid>hi('Directory', s:simpleBlue, s:simpleBlack, 'none')
